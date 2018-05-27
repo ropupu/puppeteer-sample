@@ -1,6 +1,5 @@
 class Item {
     constructor (page) {
-        const puppeteer = require('puppeteer');
         this.page = page;
     }
     async detail () {
